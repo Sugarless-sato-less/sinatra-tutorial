@@ -37,6 +37,6 @@ get '/items' do
 end
 
 get '/fizzbuzz' do ##http://localhost:4567/fizzbuzz?number=110
-    @number = params[:number].to_i
+    @numbers = (1..number)　#params[:number].to_i
     return erb :fizzbuzz
 end
