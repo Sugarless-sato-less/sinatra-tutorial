@@ -1,6 +1,6 @@
 
-    <% numbers = (1..@number) %>
-    <% numbers.each do |num| %>
+<!--     <% numbers = (1..@number) %> -->
+    <% @numbers.each do |num| %>
         <ul>
             <% if num % 3 == 0 && num % 5 == 0 %>
                 <%= "FizzBuzz" %>
